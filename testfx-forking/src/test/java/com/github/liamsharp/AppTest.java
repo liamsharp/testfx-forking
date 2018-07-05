@@ -21,8 +21,15 @@ public class AppTest
         final Stage stage = FxToolkit.registerPrimaryStage();
         final Application app = FxToolkit.setupApplication(App.class);
         LOGGER.info("app: " + app + ", stage: " + stage);
+        logApp(app);
         FxToolkit.cleanupApplication(app);
         LOGGER.info("App cleaned up");
+    }
+    
+    private void logApp(
+        final Application app)
+    {
+        LOGGER.info("app: " + app);
     }
 
 }
