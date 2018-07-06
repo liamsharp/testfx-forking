@@ -19,13 +19,13 @@ public class AppTest
         
         final Application app = null;
         LOGGER.info("app: " + app);
-//        logApp(app);
+        logApp(app);
     }
     
-//    private void logApp(
-//        final Application app)
-//    {
-//        LOGGER.info("app: " + app);
-//    }
+    private void logApp(
+        final Application app)
+    {
+        LOGGER.info("app: " + app);
+    }
 
 }
